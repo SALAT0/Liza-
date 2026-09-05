@@ -1,0 +1,15 @@
+{
+  "name": "liza-bot",
+  "version": "1.0.0",
+  "description": "Discord bot with message triggers",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "check": "node --check index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.0.0",
+    "dotenv": "^17.0.0"
+  }
+}
